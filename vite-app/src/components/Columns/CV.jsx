@@ -11,7 +11,7 @@ function CV({
   return (
     <div className="container text-center">
       <div className="row justify-content-center">
-        <div className="col-6">
+        <div className="col-6" style={{ textAlign: "right" }}>
           <Column
             headertext={educationheader}
             subheadertext={educationsubheader}
@@ -20,7 +20,7 @@ function CV({
         <div className="col-1">
           <img src={leaf} style={{ margin: "0px", maxWidth: "150px" }}></img>
         </div>
-        <div className="col-5">
+        <div className="col-5" style={{ textAlign: "left" }}>
           <Column
             headertext={experienceheader}
             subheadertext={experiencesubheader}
