@@ -1,3 +1,8 @@
+h2 {
+  text-align: center;
+  font-family: var(--subheadline-font);
+}
+
 img {
   display: block;
   margin: 0px auto;
@@ -11,4 +16,14 @@ button {
   color: black;
   font-family: var(--nav-font-family);
   letter-spacing: 1px;
+}
+p {
+  font-family: var(--navcursiv-family);
+  font-style: italic;
+  text-align: right;
+  margin-right: 100px;
+}
+.projectimages img {
+  width: 350px;
+  height: 350px;
 }
