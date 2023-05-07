@@ -17,7 +17,7 @@ function NavigationBar() {
             style={{
               fontFamily: "var(--navcursiv-family)",
               fontStyle: "italic",
-              fontSize: "20px",
+              fontSize: "30px",
             }}
           >
             Home
@@ -28,7 +28,7 @@ function NavigationBar() {
             style={{
               fontFamily: "var(--navcursiv-family)",
               fontStyle: "italic",
-              fontSize: "20px",
+              fontSize: "30px",
             }}
           >
             About me
@@ -37,21 +37,21 @@ function NavigationBar() {
           <Nav.Link
             as={Link}
             to="/projects"
-            style={{ fontFamily: "var(--nav-font)", fontSize: "20px" }}
+            style={{ fontFamily: "var(--nav-font)", fontSize: "30px" }}
           >
             Projects
           </Nav.Link>
           <Nav.Link
             as={Link}
             to="/skills"
-            style={{ fontFamily: "var(--nav-font)", fontSize: "20px" }}
+            style={{ fontFamily: "var(--nav-font)", fontSize: "30px" }}
           >
             Skills
           </Nav.Link>
           <Nav.Link
             as={Link}
             to="/contact"
-            style={{ fontFamily: "var(--nav-font)", fontSize: "20px" }}
+            style={{ fontFamily: "var(--nav-font)", fontSize: "30px" }}
             className="berni"
           >
             Contact
