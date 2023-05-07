@@ -15,6 +15,3 @@
   --primary-color: #bcaeab;
   --secondary-color: #fff9f2;
 }
-h1 {
-  font-family: var(--subheadline-font-family);
-}
