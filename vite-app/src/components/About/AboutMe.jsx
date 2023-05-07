@@ -5,6 +5,29 @@ import CV from "../../components/Columns/CV.jsx";
 import selfie from "../../img/ich.png";
 import education from "../../img/education.png";
 import experience from "../../img/experience.png";
+import {
+  educationMileStone1,
+  educationMileStone1Period,
+  educationMileStone2,
+  educationMileStone3,
+  educationMileStone3Period,
+  educationMileStone4,
+  educationMileStone4Period,
+  educationMileStone5,
+  educationMileStone5Period,
+  experienceMileStone1,
+  experienceMileStone1Period,
+  experienceMileStone2,
+  experienceMileStone2Period,
+  experienceMileStone3,
+  experienceMileStone3Period,
+  experienceMileStone4,
+  experienceMileStone4Period,
+  experienceMileStone5,
+  experienceMileStone5Period,
+  studentjobs,
+  studentjobsPeriod,
+} from "../About/Education";
 import leaf from "../../img/leaf.png";
 
 function AboutMe() {
@@ -47,7 +70,55 @@ function AboutMe() {
       </div>
 
       <DividePage education={education} experience={experience} />
-      <CV leaf={leaf} headertext={"Hi"} subheadertext={"Berni"} />
+      <CV
+        leaf={leaf}
+        educationheader={educationMileStone1}
+        educationsubheader={educationMileStone1Period}
+        experienceheader={experienceMileStone1}
+        experiencesubheader={experienceMileStone1Period}
+      />
+      <CV
+        leaf={leaf}
+        educationheader={educationMileStone2}
+        educationsubheader={""}
+        experienceheader={experienceMileStone2}
+        experiencesubheader={experienceMileStone2Period}
+      />
+      <CV
+        leaf={leaf}
+        educationheader={educationMileStone3}
+        educationsubheader={educationMileStone3Period}
+        experienceheader={""}
+        experiencesubheader={""}
+      />
+      <CV
+        leaf={leaf}
+        educationheader={""}
+        educationsubheader={""}
+        experienceheader={experienceMileStone3}
+        experiencesubheader={experienceMileStone3Period}
+      />
+      <CV
+        leaf={leaf}
+        educationheader={educationMileStone4}
+        educationsubheader={educationMileStone4Period}
+        experienceheader={experienceMileStone4}
+        experiencesubheader={experienceMileStone4Period}
+      />
+      <CV
+        leaf={leaf}
+        educationheader={educationMileStone5}
+        educationsubheader={educationMileStone5Period}
+        experienceheader={studentjobs}
+        experiencesubheader={studentjobsPeriod}
+      />
+      <CV
+        leaf={leaf}
+        educationheader={""}
+        educationsubheader={""}
+        experienceheader={experienceMileStone5}
+        experiencesubheader={experienceMileStone5Period}
+      />
     </div>
   );
 }
