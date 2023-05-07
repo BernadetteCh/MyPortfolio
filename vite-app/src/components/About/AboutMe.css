@@ -1,0 +1,27 @@
+h3 {
+  font-family: var(--nav-font-family);
+  font-style: italic;
+}
+span {
+  text-decoration: underline;
+}
+img {
+  max-width: 800px;
+}
+.selfintroduction-text p {
+  text-align: center;
+  font-size: 30px;
+}
+.selfintroduction-text {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.mentor-reference p {
+  text-align: left;
+  font-size: 25px;
+}
+.mentor-reference {
+  text-align: left;
+  font-size: 25px;
+}
