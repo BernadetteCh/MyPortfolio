@@ -8,6 +8,9 @@ span {
 img {
   max-width: 800px;
 }
+.curriculum-vitae div {
+  padding-top: 8px;
+}
 .selfintroduction-text p {
   text-align: center;
   font-size: 30px;
@@ -22,6 +25,7 @@ img {
   font-size: 25px;
 }
 .mentor-reference {
+  margin-top: 250px;
   text-align: left;
   font-size: 25px;
 }
