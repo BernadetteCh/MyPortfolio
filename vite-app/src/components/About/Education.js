@@ -18,7 +18,6 @@ export const experienceMileStone4 = "Social Worker, Vienna";
 export const experienceMileStone4Period = "05/2016 – 04/2017";
 export const experienceMileStone5 = "Voluntary Work:";
 export const experienceMileStone5Period = "Lebenshilfe Feldbach 06 - 08/2011";
-export const studentjobs =
-  "Studentjobs: GIP (Generation in Partnership), Marketing Consultant Joy Sportswear GmbH, SIQ(Sport-Integration-Qualification) Caritas";
+export const studentjobs = `Studentjobs: GIP (Generation in Partnership), Marketing Consultant Joy Sportswear GmbH, SIQ(Sport-Integration-Qualification) Caritas`;
 export const studentjobsPeriod =
   "09/2012 - 06/2014, 11/2014 - 12/2015, 2011-2012 ";
