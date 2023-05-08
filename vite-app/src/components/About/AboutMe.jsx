@@ -1,6 +1,6 @@
 import "../About/AboutMe.css";
 import Headline from "../../components/Headline.jsx";
-import DividePage from "../Columns/DividePage.jsx";
+import CVHeader from "../Columns/CVHeader.jsx";
 import CV from "../../components/Columns/CV.jsx";
 import selfie from "../../img/ich.png";
 import education from "../../img/education.png";
@@ -76,7 +76,7 @@ function AboutMe() {
         </p>
       </div>
 
-      <DividePage education={education} experience={experience} />
+      <CVHeader education={education} experience={experience} />
       <div className="curriculum-vitae">
         <div>
           <CV
