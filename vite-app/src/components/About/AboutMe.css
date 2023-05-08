@@ -11,11 +11,11 @@ span {
 }
 .selfintroduction-text p {
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
+  padding: 20px;
 }
-.selfintroduction-text {
-  text-align: center;
-  margin-top: 50px;
+.profile-picture {
+  margin-bottom: 60px;
 }
 
 .mentor-reference p {
