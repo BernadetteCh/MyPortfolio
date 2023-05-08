@@ -1,3 +1,22 @@
 .headline-contact {
   max-width: 80%;
 }
+.contactViaMail {
+  border: none;
+  background-color: var(--primary-color);
+  padding: 20px 60px;
+  font-weight: bold;
+  color: black;
+  font-family: var(--nav-font-family);
+  letter-spacing: 1px;
+}
+.emailaddress {
+  text-align: center;
+  margin: 50px 0px 0px 0px;
+  font-size: 20px;
+}
+
+.contact-icon {
+  max-width: 80px;
+  display: inline;
+}
