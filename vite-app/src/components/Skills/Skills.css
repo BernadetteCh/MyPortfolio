@@ -1,0 +1,43 @@
+.skillicon {
+  width: 60px;
+}
+.tree {
+  width: 400px;
+  margin: 0px;
+  display: inline;
+}
+.shecodescertificate {
+  width: 400px;
+}
+.skillicon-container img {
+  display: inline;
+  margin: 0px;
+}
+.skillicon-container {
+  /* display: flex;
+  flex-wrap: wrap; */
+  display: inline;
+  padding: 40px;
+}
+.mindsettree {
+  text-align: right;
+  padding: 0px;
+}
+div {
+  display: inline;
+}
+.description {
+  text-align: center !important;
+  display: inline;
+  margin-top: 20px;
+}
+.shecodescertificate {
+  width: 300px;
+  display: inline;
+  margin: 0px;
+}
+.certificates {
+  display: block;
+  margin-top: 80px;
+  padding: 0px 20px;
+}
