@@ -35,7 +35,10 @@ function AboutMe() {
   return (
     <div style={{ margin: "30px" }}>
       <Headline header={"About Me"} />
-      <img src={selfie}></img>
+      <div>
+        <img src={selfie} className="profile-picture"></img>
+      </div>
+
       <div className="selfintroduction-text">
         <p>
           Hallo, my name is Bernadette and I am a fullstack developer from
@@ -65,6 +68,7 @@ function AboutMe() {
           ></img>
         </div>
       </div>
+
       <div className="mentor-reference">
         <h3 style={{ fontWeight: "bold" }}>References</h3>
         <p>Mentors who supported me during my coding journey</p>
@@ -77,6 +81,7 @@ function AboutMe() {
       </div>
 
       <CVHeader education={education} experience={experience} />
+
       <div className="curriculum-vitae">
         <div>
           <CV
