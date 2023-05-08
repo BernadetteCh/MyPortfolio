@@ -1,5 +1,6 @@
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 import { Navbar, Nav } from "react-bootstrap";
+import { HashLink as Link } from "react-router-hash-link";
 
 function NavigationBar() {
   return (
@@ -17,7 +18,7 @@ function NavigationBar() {
             style={{
               fontFamily: "var(--navcursiv-family)",
               fontStyle: "italic",
-              fontSize: "30px",
+              fontSize: "25px",
             }}
           >
             Home
@@ -28,7 +29,7 @@ function NavigationBar() {
             style={{
               fontFamily: "var(--navcursiv-family)",
               fontStyle: "italic",
-              fontSize: "30px",
+              fontSize: "25px",
             }}
           >
             About me
@@ -37,21 +38,21 @@ function NavigationBar() {
           <Nav.Link
             as={Link}
             to="/projects"
-            style={{ fontFamily: "var(--nav-font)", fontSize: "30px" }}
+            style={{ fontFamily: "var(--nav-font)", fontSize: "25px" }}
           >
             Projects
           </Nav.Link>
           <Nav.Link
             as={Link}
             to="/skills"
-            style={{ fontFamily: "var(--nav-font)", fontSize: "30px" }}
+            style={{ fontFamily: "var(--nav-font)", fontSize: "25px" }}
           >
             Skills
           </Nav.Link>
           <Nav.Link
             as={Link}
             to="/contact"
-            style={{ fontFamily: "var(--nav-font)", fontSize: "30px" }}
+            style={{ fontFamily: "var(--nav-font)", fontSize: "25px" }}
             className="berni"
           >
             Contact
