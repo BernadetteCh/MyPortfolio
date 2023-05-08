@@ -9,7 +9,6 @@ function Home() {
   return (
     <div>
       <img src={header}></img>
-
       <div style={{ textAlign: "center" }}>
         <Link
           to="/contact"
@@ -42,7 +41,6 @@ function Home() {
               href="https://frosty-lumiere-3bb161.netlify.app/"
               target="_blank"
             >
-              {" "}
               <img src={dictionaryapp}></img>
             </a>
           </div>
