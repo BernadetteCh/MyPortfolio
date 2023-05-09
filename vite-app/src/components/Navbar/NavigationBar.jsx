@@ -1,6 +1,5 @@
-//import { Link } from "react-router-dom";
 import { Navbar, Nav } from "react-bootstrap";
-import { HashLink as Link } from "react-router-hash-link";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 function NavigationBar() {
   return (
@@ -8,55 +7,76 @@ function NavigationBar() {
       <Navbar.Toggle aria-controls="navbarScroll" />
       <Navbar.Collapse id="navbarScroll">
         <Nav
-          className="mr-auto my-2 my-lg-0"
+          className="mr-auto my-2 my-lg-0 fixed-top justify-content-end"
           style={{ maxHeight: "100px", marginLeft: "auto" }}
           navbarScroll
         >
-          <Nav.Link
-            as={Link}
-            to="/"
+          <AnchorLink
+            href="#home"
             style={{
               fontFamily: "var(--navcursiv-family)",
+              padding: "0px 10px",
               fontStyle: "italic",
               fontSize: "25px",
+              color: "grey",
+              textDecoration: "none",
             }}
           >
             Home
-          </Nav.Link>
-          <Nav.Link
-            as={Link}
-            to="/aboutme"
+          </AnchorLink>
+
+          <AnchorLink
+            href="#aboutme"
             style={{
               fontFamily: "var(--navcursiv-family)",
+              padding: "0px 10px",
               fontStyle: "italic",
               fontSize: "25px",
+              color: "grey",
+              textDecoration: "none",
             }}
           >
             About me
-          </Nav.Link>
+          </AnchorLink>
 
-          <Nav.Link
-            as={Link}
-            to="/projects"
-            style={{ fontFamily: "var(--nav-font)", fontSize: "25px" }}
+          <AnchorLink
+            href="#projects"
+            style={{
+              fontFamily: "var(--nav-font)",
+              padding: "0px 10px",
+              fontSize: "25px",
+              color: "grey",
+              textDecoration: "none",
+            }}
           >
             Projects
-          </Nav.Link>
-          <Nav.Link
-            as={Link}
-            to="/skills"
-            style={{ fontFamily: "var(--nav-font)", fontSize: "25px" }}
+          </AnchorLink>
+
+          <AnchorLink
+            href="#skills"
+            style={{
+              fontFamily: "var(--nav-font)",
+              padding: "0px 10px",
+              fontSize: "25px",
+              color: "grey",
+              textDecoration: "none",
+            }}
           >
             Skills
-          </Nav.Link>
-          <Nav.Link
-            as={Link}
-            to="/contact"
-            style={{ fontFamily: "var(--nav-font)", fontSize: "25px" }}
-            className="berni"
+          </AnchorLink>
+
+          <AnchorLink
+            href="#contact"
+            style={{
+              fontFamily: "var(--nav-font)",
+              padding: "0px 10px",
+              fontSize: "25px",
+              color: "grey",
+              textDecoration: "none",
+            }}
           >
             Contact
-          </Nav.Link>
+          </AnchorLink>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
