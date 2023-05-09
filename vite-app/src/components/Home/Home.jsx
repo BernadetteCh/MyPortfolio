@@ -3,15 +3,15 @@ import header from "../../img/header.png";
 import weatherapp from "../../img/weatherapp.png";
 import dictionaryapp from "../../img/dictionaryapp.png";
 import employeemadness from "../../img/employeemadness.png";
-import { Link } from "react-router-dom";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 function Home() {
   return (
     <div>
       <img src={header}></img>
       <div style={{ textAlign: "center" }}>
-        <Link
-          to="/contact"
+        <AnchorLink
+          href="#contact"
           style={{
             textDecoration: "none",
             display: "block",
@@ -20,7 +20,7 @@ function Home() {
           }}
         >
           <button>Contact me</button>
-        </Link>
+        </AnchorLink>
       </div>
       <h2 style={{ fontWeight: "lighter", marginTop: "50px" }}>
         LATEST PROJECTS ...
@@ -54,17 +54,16 @@ function Home() {
           </div>
         </div>
       </div>
-      <Link
-        to="/projects"
+      <AnchorLink
+        href="#projects"
         style={{
           textDecoration: "none",
           color: "black",
           fontSize: "18px",
         }}
       >
-        {" "}
         <p>Click here for more ...</p>
-      </Link>
+      </AnchorLink>
     </div>
   );
 }
