@@ -16,6 +16,7 @@ import mongodb from "../../img/technologies/mongodb.png";
 import mysql from "../../img/technologies/mysql.svg";
 import nodejs from "../../img/technologies/nodejs.svg";
 import shecodesreact from "../../img/shecodesreact.png";
+import shecodesfrontend from "../../img/shecodesfrontend.png";
 
 function Skills() {
   return (
@@ -38,7 +39,7 @@ function Skills() {
             <SkillIcons icon={nodejs} />
             <div className="certificates">
               <img
-                src={shecodesreact}
+                src={shecodesfrontend}
                 className="img-fluid shecodescertificate"
               ></img>
               <img
