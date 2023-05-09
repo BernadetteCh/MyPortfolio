@@ -4,7 +4,7 @@ import contactHeadline from "../../img/contact.png";
 import linkedInIcon from "../../img/linkedin.png";
 import githubIcon from "../../img/githubicon.png";
 import discordIcon from "../../img/discordIcon.png";
-import { Link } from "react-router-dom";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 function Contact() {
   return (
@@ -14,8 +14,8 @@ function Contact() {
         <img src={contactHeadline} className="headline-contact"></img>
       </div>
       <div style={{ textAlign: "center" }}>
-        <Link
-          to="mailto:b.christiner93@gmail.com"
+        <AnchorLink
+          href="contact"
           style={{
             textDecoration: "none",
             display: "block",
@@ -24,23 +24,23 @@ function Contact() {
           }}
         >
           <button className="contactViaMail">Contact Me</button>
-        </Link>
+        </AnchorLink>
 
         <p className="emailaddress">b.christiner93@gmail.com</p>
       </div>
       <div style={{ display: "block", textAlign: "center" }}>
-        <Link to="https://at.linkedin.com/" target="_blank">
+        <a href="https://at.linkedin.com/" target="_blank">
           <img src={linkedInIcon} className="contact-icon"></img>
-        </Link>
-        <Link to="https://github.com/BernadetteCh" target="_blank">
+        </a>
+        <a href="https://github.com/BernadetteCh" target="_blank">
           <img src={githubIcon} className="contact-icon"></img>
-        </Link>
-        <Link
-          to="https://discordapp.com/users/949019145968705669"
+        </a>
+        <a
+          href="https://discordapp.com/users/949019145968705669"
           target="_blank"
         >
           <img src={discordIcon} className="contact-icon"></img>
-        </Link>
+        </a>
       </div>
     </div>
   );
