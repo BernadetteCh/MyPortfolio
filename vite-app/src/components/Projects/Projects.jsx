@@ -10,6 +10,7 @@ import myemployeesdata from "../../img/employeemadness.png";
 import italyapp from "../../img/projects/learnItalianApp.png";
 import calculatorapp from "../../img/projects/calculator.png";
 import mars from "../../img/projects/mars.png";
+import { projectsData } from "./Projectsdata";
 
 function Projects() {
   return (
@@ -17,62 +18,18 @@ function Projects() {
       <Headline header={"Projects"} />
       <div className="container">
         <div className="row ">
-          <ProjectView
-            image={robocat}
-            projecttitle={"RoboCats"}
-            technologies={"Springboot, Java"}
-            link={"https://github.com/BernadetteCh/RoboCats"}
-          />
-          <ProjectView
-            image={tictactoe}
-            projecttitle={"TicTacToe"}
-            technologies={"html, css and javascript, bootstrap"}
-            link={"https://ubiquitous-chebakia-24042d.netlify.app/"}
-          />
-
-          <ProjectView
-            image={reactweatherapp}
-            projecttitle={"React-Weatherapp"}
-            technologies={" React, Axios, Bootstrap, Restful API"}
-            link={"https://optimistic-curran-8bd91f.netlify.app/"}
-          />
-
-          <ProjectView
-            image={dictionaryapp}
-            projecttitle={"Dictionary-Weatherapp"}
-            technologies={" React, Axios, Bootstrap, Restful API"}
-            link={"https://frosty-lumiere-3bb161.netlify.app/"}
-          />
-          <ProjectView
-            image={mars}
-            projecttitle={"MarsRover"}
-            technologies={"Java"}
-            link={"#"}
-          />
-          <ProjectView
-            image={myemployeesdata}
-            projecttitle={"My_EmployeeMadness"}
-            technologies={"MongoDB, ExpressJS, React"}
-            link={"https://github.com/BernadetteCh/my-employees-data/"}
-          />
-          <ProjectView
-            image={weatherapp}
-            projecttitle={"Weatherapp"}
-            technologies={"HTML, CSS and JavaScript, Bootstrap"}
-            link={"https://xenodochial-noether-025d51.netlify.app/"}
-          />
-          <ProjectView
-            image={calculatorapp}
-            projecttitle={"CalculatorApp"}
-            technologies={"HTML, CSS and JavaScript, Bootstrap"}
-            link={"https://goofy-goldstine-6e0330.netlify.app/"}
-          />
-          <ProjectView
-            image={italyapp}
-            projecttitle={"Learn_ItalianApp"}
-            technologies={"HTML, CSS and JavaScript, Bootstrap (first project)"}
-            link={"https://confident-thompson-888a16.netlify.app/"}
-          />
+          {projectsData.map((project, index) => {
+            return (
+              <ProjectView
+                key={index}
+                image={project.name}
+                title={project.title}
+                projecttitle={project.projecttitle}
+                technologies={project.technologies}
+                link={project.link}
+              />
+            );
+          })}
         </div>
       </div>
     </div>
