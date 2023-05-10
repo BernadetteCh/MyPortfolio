@@ -5,6 +5,9 @@ import CV from "../../components/Columns/CV.jsx";
 import selfie from "../../img/ich.png";
 import education from "../../img/education.png";
 import experience from "../../img/experience.png";
+import { selfIntroduction1 } from "./SelfIntroduction";
+import { selfIntroduction2 } from "./SelfIntroduction";
+import { selfIntroduction3 } from "./SelfIntroduction";
 import cat from "../../img/cat.png";
 import {
   educationMileStone1,
@@ -36,36 +39,19 @@ function AboutMe() {
     <div style={{ margin: "30px" }}>
       <Headline header={"About Me"} />
       <div>
-        <img src={selfie} className="profile-picture"></img>
+        <img src={selfie} className="profile-picture img-fluid"></img>
       </div>
 
       <div className="selfintroduction-text">
-        <p>
-          Hallo, my name is Bernadette and I am a fullstack software developer
-          from Austria. I am always interested in learning new things and
-          educate myself. I started learning to code during the pandemic by
-          self-study and online workshop of SheCodes, which provides "hands on"
-          front-end developer coding workshops.
-        </p>
-        <p>
-          Starting exploring a new world was quite exciting so it came that I
-          spent more than a year on a coding school in Vienna to built up an
-          expertise in different technologies and how to put my own project
-          ideas to practice. Besides coding I like to spend my time in the
-          nature because it clears my head and it's like balm for the soul . I
-          also like to live out my creativity with hyper realistic drawing and
-          photography. So it can happen you find me taking pictures on top of a
-          mountain or in a restless city, as photography has been a hobby of
-          mine for a long time.
-        </p>
-        <p>
-          I would say my biggest strength is my courage and one weakness of mine
-          is that I am also a detail oriented person so it can happen that I can
-          get lost in details. If you like my work or if you would like to give
-          feedback, I would be very happy to receive a message.
-        </p>
+        <p>{selfIntroduction1}</p>
+        <p>{selfIntroduction2}</p>
+        <p>{selfIntroduction3}</p>
         <div className="d-flex flex-row-reverse">
-          <img src={cat} style={{ maxWidth: "250px", margin: "0px" }}></img>
+          <img
+            src={cat}
+            style={{ maxWidth: "250px", margin: "0px" }}
+            className="img-fluid cat"
+          ></img>
         </div>
       </div>
 
