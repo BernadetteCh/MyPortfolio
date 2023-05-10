@@ -1,6 +1,7 @@
 export const educationMileStone1 = "Educational leave,Full Stack Developer";
 export const educationMileStone1Period = "05/2022  - now";
 export const educationMileStone2 = "Self study in programming during pandemic";
+export const educationMileStone2Period = "with SheCodes workshop";
 export const educationMileStone3 = "University course Project Management, Graz";
 export const educationMileStone3Period = "10/2018 – 12/2018";
 export const educationMileStone4 = "Self study in Photography";
