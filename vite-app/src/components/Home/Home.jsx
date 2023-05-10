@@ -3,12 +3,13 @@ import header from "../../img/header.png";
 import weatherapp from "../../img/weatherapp.png";
 import dictionaryapp from "../../img/dictionaryapp.png";
 import employeemadness from "../../img/employeemadness.png";
+import statement from "../../img/statement.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 function Home() {
   return (
     <div>
-      <img src={header}></img>
+      <img src={statement}></img>
       <div style={{ textAlign: "center" }}>
         <AnchorLink
           href="#contact"
