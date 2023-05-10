@@ -16,7 +16,7 @@ function Projects() {
     <div>
       <Headline header={"Projects"} />
       <div className="container">
-        <div className="row">
+        <div className="row ">
           <ProjectView
             image={robocat}
             projecttitle={"RoboCats"}
