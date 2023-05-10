@@ -6,6 +6,7 @@ span {
   font-size: 25px;
   font-family: var(--nav-font-family);
   letter-spacing: 2px;
+  margin-left: 0px;
 }
 .subheader {
   font-size: 20px;
