@@ -5,7 +5,7 @@ function Headline({ header }) {
     <h2 style={{ fontSize: "60px", marginTop: "100px" }}>
       {"<"}
       {header}
-      {"/>"}
+      {" />"}
     </h2>
   );
 }
