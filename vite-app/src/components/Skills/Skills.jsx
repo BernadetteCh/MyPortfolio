@@ -23,7 +23,7 @@ function Skills() {
     <div>
       <Headline header={"Skills"} />
       <div className="content-container container">
-        <div className="row ">
+        <div className="row d-block d-lg-flex">
           <div className="col-6 mt-5">
             <SkillIcons icon={javascript} />
             <SkillIcons icon={html} />
@@ -48,7 +48,7 @@ function Skills() {
               ></img>
             </div>
           </div>
-          <div className="col-6 mindsettree">
+          <div className="col-6 d-lg-block d-none mindsettree">
             <img src={growthmindsettree} className="tree"></img>
           </div>
         </div>
