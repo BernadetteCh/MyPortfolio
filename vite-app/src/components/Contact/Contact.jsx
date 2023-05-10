@@ -11,18 +11,10 @@ function Contact() {
     <div>
       <Headline header={"Contact "} />
       <div>
-        <img src={contactHeadline} className="headline-contact"></img>
+        <img src={contactHeadline} className="headline-contact img-fluid"></img>
       </div>
       <div style={{ textAlign: "center" }}>
-        <AnchorLink
-          href="contact"
-          style={{
-            textDecoration: "none",
-            display: "block",
-            margin: "0px auto",
-            fontSize: "20px",
-          }}
-        >
+        <AnchorLink href="contact" className="contact-link">
           <button className="contactViaMail">Contact Me</button>
         </AnchorLink>
 
