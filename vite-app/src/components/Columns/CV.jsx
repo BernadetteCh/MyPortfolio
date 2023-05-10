@@ -18,7 +18,11 @@ function CV({
           />
         </div>
         <div className="col-1">
-          <img src={leaf} style={{ margin: "0px", maxWidth: "50px" }}></img>
+          <img
+            src={leaf}
+            style={{ margin: "0px", maxWidth: "50px" }}
+            className="leaf"
+          ></img>
         </div>
         <div className="col-4" style={{ textAlign: "left", marginLeft: "0px" }}>
           <Column
