@@ -4,7 +4,7 @@ function ProjectView({ link, image, projecttitle, technologies }) {
   return (
     <div className="col-lg-4">
       <a href={link} target="_blank" alt={projecttitle}>
-        <img src={image} className="project-image"></img>
+        <img src={image} className="project-image img-fluid"></img>
       </a>
       <div className="project-title">
         <h3>{projecttitle}</h3>
