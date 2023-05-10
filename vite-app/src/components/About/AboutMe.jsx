@@ -13,6 +13,7 @@ import {
   educationMileStone1,
   educationMileStone1Period,
   educationMileStone2,
+  educationMileStone2Period,
   educationMileStone3,
   educationMileStone3Period,
   educationMileStone4,
@@ -82,7 +83,7 @@ function AboutMe() {
           <CV
             leaf={leaf}
             educationheader={educationMileStone2}
-            educationsubheader={""}
+            educationsubheader={educationMileStone2Period}
             experienceheader={experienceMileStone2}
             experiencesubheader={experienceMileStone2Period}
           />
