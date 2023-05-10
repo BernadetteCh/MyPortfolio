@@ -1,6 +1,6 @@
 .project-image {
   width: 200px;
-  height: 150px;
+  height: 200px;
 }
 .project-title {
   text-align: center;
@@ -12,4 +12,17 @@
 .project-title h3 {
   font-weight: bold;
   margin-top: 20px;
+}
+
+@media (max-width: 992px) {
+  .project-title h3 {
+    font-size: 16px;
+  }
+  .project-title p {
+    font-size: 12px;
+  }
+  .project-image {
+    width: 100px;
+    height: 100px;
+  }
 }

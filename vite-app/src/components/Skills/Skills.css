@@ -41,3 +41,15 @@ div {
   margin-top: 80px;
   padding: 0px 20px;
 }
+
+@media (max-width: 992px) {
+  .tree {
+    width: 200px;
+  }
+  .skillicon {
+    width: 40px;
+  }
+  .shecodescertificate {
+    display: inline;
+  }
+}

@@ -20,13 +20,34 @@ span {
 
 .mentor-reference p {
   text-align: left;
+  margin-left: 20px;
   font-size: 25px;
+}
+.mentor-reference h3 {
+  margin-left: 20px;
 }
 .mentor-reference {
   margin-top: 250px;
-  text-align: left;
   font-size: 25px;
 }
 .mentor {
   text-decoration: underline;
+}
+
+@media (max-width: 992px) {
+  .selfintroduction-text p {
+    font-size: 14px;
+    margin: 10px;
+    text-align: center;
+    padding: 0px;
+  }
+  .cat {
+    width: 100px;
+  }
+  .mentor-reference h3 {
+    font-size: 16px;
+  }
+  .mentor-reference p {
+    font-size: 16px;
+  }
 }

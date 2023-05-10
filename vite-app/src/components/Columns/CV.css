@@ -13,3 +13,18 @@ span {
   font-family: var(--nav-font-family);
   letter-spacing: 2px;
 }
+
+@media (max-width: 992px) {
+  .header {
+    font-size: 14px;
+  }
+  .subheader {
+    font-size: 10px;
+  }
+  .leaf {
+    width: 30px;
+  }
+  .cvheader-picture {
+    width: 100px;
+  }
+}
