@@ -61,10 +61,14 @@ function AboutMe() {
           If you like my work or if you would like to give feedback, I would be
           very happy to receive a message.
         </p>
-        <div style={{ textAlign: "right", position: "relative" }}>
+        <div
+          className="d-flex flex-row-reverse"
+          // style={{ textAlign: "right", position: "relative" }}
+        >
           <img
             src={cat}
-            style={{ position: "absolute", right: "0", maxWidth: "450px" }}
+            style={{ maxWidth: "250px", margin: "0px" }}
+            // style={{ position: "absolute", right: "0", maxWidth: "450px" }}
           ></img>
         </div>
       </div>
@@ -73,10 +77,10 @@ function AboutMe() {
         <h3 style={{ fontWeight: "bold" }}>References</h3>
         <p>Mentors who supported me during my coding journey</p>
         <p>
-          <span>Emad Easa Senior Developer</span>
+          <span className="mentor">Emad Easa Senior Developer</span>
         </p>
         <p>
-          <span>Guillermo Herrero Senior Developer</span>
+          <span className="mentor">Guillermo Herrero Senior Developer</span>
         </p>
       </div>
 
