@@ -61,15 +61,8 @@ function AboutMe() {
           If you like my work or if you would like to give feedback, I would be
           very happy to receive a message.
         </p>
-        <div
-          className="d-flex flex-row-reverse"
-          // style={{ textAlign: "right", position: "relative" }}
-        >
-          <img
-            src={cat}
-            style={{ maxWidth: "250px", margin: "0px" }}
-            // style={{ position: "absolute", right: "0", maxWidth: "450px" }}
-          ></img>
+        <div className="d-flex flex-row-reverse">
+          <img src={cat} style={{ maxWidth: "250px", margin: "0px" }}></img>
         </div>
       </div>
 
