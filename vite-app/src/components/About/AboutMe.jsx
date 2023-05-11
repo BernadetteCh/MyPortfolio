@@ -9,30 +9,7 @@ import { selfIntroduction1 } from "./SelfIntroduction";
 import { selfIntroduction2 } from "./SelfIntroduction";
 import { selfIntroduction3 } from "./SelfIntroduction";
 import cat from "../../img/cat.png";
-import {
-  educationMileStone1,
-  educationMileStone1Period,
-  educationMileStone2,
-  educationMileStone2Period,
-  educationMileStone3,
-  educationMileStone3Period,
-  educationMileStone4,
-  educationMileStone4Period,
-  educationMileStone5,
-  educationMileStone5Period,
-  experienceMileStone1,
-  experienceMileStone1Period,
-  experienceMileStone2,
-  experienceMileStone2Period,
-  experienceMileStone3,
-  experienceMileStone3Period,
-  experienceMileStone4,
-  experienceMileStone4Period,
-  experienceMileStone5,
-  experienceMileStone5Period,
-  studentjobs,
-  studentjobsPeriod,
-} from "../About/Education";
+import { curriculumVitea } from "./CV";
 import leaf from "../../img/leaf.png";
 
 function AboutMe() {
@@ -70,69 +47,18 @@ function AboutMe() {
       <CVHeader education={education} experience={experience} />
 
       <div className="curriculum-vitae">
-        <div>
-          <CV
-            leaf={leaf}
-            educationheader={educationMileStone1}
-            educationsubheader={educationMileStone1Period}
-            experienceheader={experienceMileStone1}
-            experiencesubheader={experienceMileStone1Period}
-          />
-        </div>
-        <div>
-          <CV
-            leaf={leaf}
-            educationheader={educationMileStone2}
-            educationsubheader={educationMileStone2Period}
-            experienceheader={experienceMileStone2}
-            experiencesubheader={experienceMileStone2Period}
-          />
-        </div>
-        <div>
-          <CV
-            leaf={leaf}
-            educationheader={educationMileStone3}
-            educationsubheader={educationMileStone3Period}
-            experienceheader={""}
-            experiencesubheader={""}
-          />
-        </div>
-        <div>
-          <CV
-            leaf={leaf}
-            educationheader={""}
-            educationsubheader={""}
-            experienceheader={experienceMileStone3}
-            experiencesubheader={experienceMileStone3Period}
-          />
-        </div>
-        <div>
-          <CV
-            leaf={leaf}
-            educationheader={educationMileStone4}
-            educationsubheader={educationMileStone4Period}
-            experienceheader={experienceMileStone4}
-            experiencesubheader={experienceMileStone4Period}
-          />
-        </div>
-        <div>
-          <CV
-            leaf={leaf}
-            educationheader={educationMileStone5}
-            educationsubheader={educationMileStone5Period}
-            experienceheader={studentjobs}
-            experiencesubheader={studentjobsPeriod}
-          />
-        </div>
-        <div>
-          <CV
-            leaf={leaf}
-            educationheader={""}
-            educationsubheader={""}
-            experienceheader={experienceMileStone5}
-            experiencesubheader={experienceMileStone5Period}
-          />
-        </div>
+        {curriculumVitea.map((cv, index) => {
+          return (
+            <CV
+              key={index}
+              leaf={leaf}
+              educationheader={cv.educationHeader}
+              educationsubheader={cv.educationSubheader}
+              experienceheader={cv.experienceHeader}
+              experiencesubheader={cv.experienceSubheader}
+            />
+          );
+        })}
       </div>
     </div>
   );
