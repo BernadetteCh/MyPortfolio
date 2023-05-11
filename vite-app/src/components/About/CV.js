@@ -28,41 +28,86 @@ export const curriculumVitea = [
     educationSubheader: educationMileStone1Period,
     experienceHeader: experienceMileStone1,
     experienceSubheader: experienceMileStone1Period,
+    educationDetail: "",
+    educationExperience: "",
+    jobDetail: "Full Stack Software Developer bootcamp, Codecool, Vienna",
+    jobExperience:
+      "I was awarded a scholarship worth over €15,000, which allowed me to acquire a profound knowledge of various technologies and programming languages.",
   },
   {
     educationHeader: educationMileStone2,
     educationSubheader: educationMileStone2Period,
     experienceHeader: experienceMileStone2,
     experienceSubheader: experienceMileStone2Period,
+    educationDetail: "Online coding workshop, Shecodes",
+    educationExperience:
+      "I wanted to make use of the time during the pandemic and completed courses on the edX platform on various topics such as climate and the science of happiness at work. Based on a recommendation from an acquaintance, I started programming and haven't stopped since then (;",
+    jobDetail: "Sale Assistant at Kastner & Öhler, Graz, Austria",
+    jobExperience:
+      "I learned a lot about resilience and persistence because in sales, you encounter people from various social backgrounds and various personalities. I also learned a lot about textile manufacturing. As I was primarily responsible for the women's lingerie department, I expanded my knowledge about bras and socks. Did you know, for example, that over 80% of women wear the wrong bra size...",
   },
   {
     educationHeader: educationMileStone3,
     educationSubheader: educationMileStone3Period,
     experienceHeader: "",
     experienceSubheader: "",
+    educationDetail: "University course project management in Graz, Austria",
+    educationExperience: `Graduation with an IPMA certificate,\n 
+    - Methods and techniques\n
+    - Quality management\n
+    - Risk management\n
+    - Project financing`,
+    jobDetail: "",
+    jobExperience: "",
   },
   {
     educationHeader: "",
     educationSubheader: "",
     experienceHeader: experienceMileStone3,
     experienceSubheader: experienceMileStone3Period,
+    educationDetail: "",
+    educationExperience: "",
+    jobDetail:
+      "Baby photographer for Babysmile GmbH, Germany professional newborn and family photography in the hospital",
+    jobExperience:
+      "In photography, some of the most challenging subjects are animals and children, as they skillfully ignore the instructions of the photographer. Therefore, I have learned here how important it is to remain calm and patient in stressful situations.",
   },
+
   {
     educationHeader: educationMileStone4,
     educationSubheader: educationMileStone4Period,
     experienceHeader: experienceMileStone4,
     experienceSubheader: experienceMileStone4Period,
+    educationDetail: " Various Photography Courses , Nikon,  Vienna",
+    educationExperience:
+      "I discovered photography as a hobby. Since that day, I have seen my surroundings through a lens and turned acquaintances and friends into models.",
+    jobDetail: "Social Worker at ,,Zeit!Raum‘‘ in Vienna, Austria",
+    jobExperience:
+      "pedagogical support &amp; counseling for young adults with a refugee background in a residential care home, documentation and keeping of business records, support with the integration process, cooperation with local authorities",
   },
   {
     educationHeader: educationMileStone5,
     educationSubheader: educationMileStone5Period,
     experienceHeader: studentjobs,
     experienceSubheader: studentjobsPeriod,
+    educationDetail:
+      "Karl-Franzens University Bachelor of Arts, Graz, Education Science",
+    educationExperience:
+      "Major subjects:\nSociology, Trans- and interdisciplinarity in educational science,\n methodology and science theory, analysis and organisation \npedagogical professional fields",
+    jobDetail:
+      "Intern at Project ,,SIQ‘‘ for Caritas in Graz, Austria; \nSocial Worker at ,,GiP‘‘ Gmbh in Graz, Austria;\nMarketing consultant for ,,TAO Sportswear‘‘ in Graz, Austria",
+    jobExperience:
+      "pedagogical support to convention refugees and asylum-seekers;\nafter school care;\nsales associate (part-time) ",
   },
   {
     educationHeader: "",
     educationSubheader: "",
     experienceHeader: experienceMileStone5,
-    experienceSubheader: experienceMileStone5,
+    experienceSubheader: experienceMileStone5Period,
+    educationDetail: "",
+    educationExperience: "",
+    jobDetail: "Volunteer at 'Lebenshilfe', Feldbach, Austria",
+    jobExperience:
+      "After completing my school education, I worked in day care for people with disabilities and learned a lot about the topic of inclusion.",
   },
 ];
