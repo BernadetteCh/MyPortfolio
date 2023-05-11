@@ -8,6 +8,9 @@ function CV({
   experienceheader,
   experiencesubheader,
 }) {
+  const displayDetails = (e) => {
+    alert("HI");
+  };
   return (
     <div className="container text-center">
       <div className="row justify-content-evenly">
@@ -22,6 +25,7 @@ function CV({
             src={leaf}
             style={{ margin: "0px", maxWidth: "50px" }}
             className="leaf"
+            onClick={(e) => displayDetails(e)}
           ></img>
         </div>
         <div className="col-4" style={{ textAlign: "left", marginLeft: "0px" }}>
