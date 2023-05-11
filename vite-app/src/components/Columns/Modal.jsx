@@ -22,7 +22,7 @@ function Modal({ setOpenModal, cvData, index }) {
             {cvData[index].educationDetail}
           </span>
         </p>
-        <p>
+        <p className="education-experience">
           <span>{cvData[index].educationExperience}</span>
         </p>
       </div>
