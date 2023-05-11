@@ -1,23 +1,24 @@
 import { Navbar, Nav } from "react-bootstrap";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import "../Navbar/Navbar.css";
 
 function NavigationBar() {
   return (
-    <Navbar expand="lg" style={{ marginTop: "20px" }}>
+    <Navbar expand="lg" style={{ marginTop: "20px" }} className="fixed-top">
       <Navbar.Toggle aria-controls="navbarScroll" />
       <Navbar.Collapse id="navbarScroll">
-        <Nav
-          className="mr-auto my-2 my-lg-0 fixed-top justify-content-end"
+        <ul
+          className=" mr-auto my-2 my-lg-0 justify-content-end "
           style={{ maxHeight: "100px", marginLeft: "auto" }}
           navbarScroll
         >
           <AnchorLink
             href="#home"
+            className="d-block d-lg-inline fs-4"
             style={{
               fontFamily: "var(--navcursiv-family)",
               padding: "0px 10px",
               fontStyle: "italic",
-              fontSize: "25px",
               color: "grey",
               textDecoration: "none",
             }}
@@ -27,11 +28,11 @@ function NavigationBar() {
 
           <AnchorLink
             href="#aboutme"
+            className="d-block d-lg-inline fs-4"
             style={{
               fontFamily: "var(--navcursiv-family)",
               padding: "0px 10px",
               fontStyle: "italic",
-              fontSize: "25px",
               color: "grey",
               textDecoration: "none",
             }}
@@ -41,10 +42,10 @@ function NavigationBar() {
 
           <AnchorLink
             href="#projects"
+            className="d-block d-lg-inline fs-4"
             style={{
               fontFamily: "var(--nav-font)",
               padding: "0px 10px",
-              fontSize: "25px",
               color: "grey",
               textDecoration: "none",
             }}
@@ -54,10 +55,10 @@ function NavigationBar() {
 
           <AnchorLink
             href="#skills"
+            className="d-block d-lg-inline fs-4"
             style={{
               fontFamily: "var(--nav-font)",
               padding: "0px 10px",
-              fontSize: "25px",
               color: "grey",
               textDecoration: "none",
             }}
@@ -67,17 +68,17 @@ function NavigationBar() {
 
           <AnchorLink
             href="#contact"
+            className="d-block d-lg-inline fs-4"
             style={{
               fontFamily: "var(--nav-font)",
               padding: "0px 10px",
-              fontSize: "25px",
               color: "grey",
               textDecoration: "none",
             }}
           >
             Contact
           </AnchorLink>
-        </Nav>
+        </ul>
       </Navbar.Collapse>
     </Navbar>
   );
