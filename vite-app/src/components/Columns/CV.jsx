@@ -1,15 +1,19 @@
 import "../Columns/CV.css";
 import Column from "../Columns/Column.jsx";
+import Modal from "./Modal.jsx";
 
 function CV({
+  index,
   leaf,
   educationheader,
   educationsubheader,
   experienceheader,
   experiencesubheader,
+  modal,
+  setOpenModal,
 }) {
-  const displayDetails = (e) => {
-    alert("HI");
+  const displayDetails = () => {
+    setOpenModal(!modal, index);
   };
   return (
     <div className="container text-center">
@@ -25,7 +29,7 @@ function CV({
             src={leaf}
             style={{ margin: "0px", maxWidth: "50px" }}
             className="leaf"
-            onClick={(e) => displayDetails(e)}
+            onClick={(e) => displayDetails()}
           ></img>
         </div>
         <div className="col-4" style={{ textAlign: "left", marginLeft: "0px" }}>
