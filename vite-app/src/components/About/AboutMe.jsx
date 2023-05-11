@@ -1,7 +1,9 @@
 import "../About/AboutMe.css";
+import { useState } from "react";
 import Headline from "../../components/Headline.jsx";
 import CVHeader from "../Columns/CVHeader.jsx";
 import CV from "../../components/Columns/CV.jsx";
+import Modal from "../Columns/Modal.jsx";
 import selfie from "../../img/ich.png";
 import education from "../../img/education.png";
 import experience from "../../img/experience.png";
@@ -13,6 +15,14 @@ import { curriculumVitea } from "./CV";
 import leaf from "../../img/leaf.png";
 
 function AboutMe() {
+  const [openModal, setOpenModal] = useState(false);
+  const [cvStep, setCvStep] = useState(0);
+
+  const toggleModal = (modalBoolean, index) => {
+    setOpenModal(modalBoolean);
+    setCvStep(index);
+  };
+
   return (
     <div style={{ margin: "30px" }}>
       <Headline header={"About Me"} />
@@ -51,16 +61,27 @@ function AboutMe() {
           return (
             <CV
               key={index}
+              index={index}
               leaf={leaf}
               educationheader={cv.educationHeader}
               educationsubheader={cv.educationSubheader}
               experienceheader={cv.experienceHeader}
               experiencesubheader={cv.experienceSubheader}
+              modal={openModal}
+              setOpenModal={toggleModal}
             />
           );
         })}
       </div>
+      {openModal && (
+        <Modal
+          setOpenModal={setOpenModal}
+          cvData={curriculumVitea}
+          index={cvStep}
+        />
+      )}
     </div>
   );
 }
+
 export default AboutMe;
