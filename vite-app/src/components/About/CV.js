@@ -41,10 +41,10 @@ export const curriculumVitea = [
     experienceSubheader: experienceMileStone2Period,
     educationDetail: "Online coding workshop, Shecodes",
     educationExperience:
-      "I wanted to make use of the time during the pandemic and completed courses on the edX platform on various topics such as climate and the science of happiness at work. Based on a recommendation from an acquaintance, I started programming and haven't stopped since then (;",
+      "I wanted to make use of the time during the pandemic. I started learning programming by myself and haven't stopped since then (;",
     jobDetail: "Sale Assistant at Kastner & Öhler, Graz, Austria",
     jobExperience:
-      "I learned a lot about resilience and persistence because in sales, you encounter people from various social backgrounds and various personalities. I also learned a lot about textile manufacturing. As I was primarily responsible for the women's lingerie department, I expanded my knowledge about bras and socks. Did you know, for example, that over 80% of women wear the wrong bra size...",
+      "I learned a lot about resilience and persistence because in sales, you encounter people from various social backgrounds and with various personalities. I also learned a lot about textile manufacturing. As I was primarily responsible for the women's lingerie department, I expanded my knowledge. Did you know, for example, that over 80% of women wear the wrong bra size...",
   },
   {
     educationHeader: educationMileStone3,
@@ -70,7 +70,7 @@ export const curriculumVitea = [
     jobDetail:
       "Baby photographer for Babysmile GmbH, Germany professional newborn and family photography in the hospital",
     jobExperience:
-      "In photography, some of the most challenging subjects are animals and children, as they skillfully ignore the instructions of the photographer. Therefore, I have learned here how important it is to remain calm and patient in stressful situations.",
+      "In photography, some of the most challenging subjects are animals and children, as they skillfully ignore the instructions of the photographer. Therefore, I have learned here how important it is to stay calm and patient in stressful situations.",
   },
 
   {
@@ -80,10 +80,10 @@ export const curriculumVitea = [
     experienceSubheader: experienceMileStone4Period,
     educationDetail: " Various Photography Courses , Nikon,  Vienna",
     educationExperience:
-      "I discovered photography as a hobby. Since that day, I have seen my surroundings through a lens and turned acquaintances and friends into models.",
+      "I discovered photography as a hobby. Since that day, I have seen my environment through a lens and turned friends and family members into models.",
     jobDetail: "Social Worker at ,,Zeit!Raum‘‘ in Vienna, Austria",
     jobExperience:
-      "pedagogical support &amp; counseling for young adults with a refugee background in a residential care home, documentation and keeping of business records, support with the integration process, cooperation with local authorities",
+      "pedagogical support and counseling for young adults with a refugee background in a residential care home, documentation and keeping of business records, support with the integration process, cooperation with local authorities",
   },
   {
     educationHeader: educationMileStone5,
@@ -94,10 +94,8 @@ export const curriculumVitea = [
       "Karl-Franzens University Bachelor of Arts, Graz, Education Science",
     educationExperience:
       "Major subjects:\nSociology, Trans- and interdisciplinarity in educational science,\n methodology and science theory, analysis and organisation \npedagogical professional fields",
-    jobDetail:
-      "Intern at Project ,,SIQ‘‘ for Caritas in Graz, Austria; \nSocial Worker at ,,GiP‘‘ Gmbh in Graz, Austria;\nMarketing consultant for ,,TAO Sportswear‘‘ in Graz, Austria",
-    jobExperience:
-      "pedagogical support to convention refugees and asylum-seekers;\nafter school care;\nsales associate (part-time) ",
+    jobDetail: `Intern at Project ,,SIQ‘‘ for Caritas in Graz, Austria; \nSocial Worker at ,,GiP‘‘ Gmbh in Graz, Austria;\nMarketing consultant for ,,TAO Sportswear‘‘ in Graz, Austria`,
+    jobExperience: `pedagogical support to convention refugees and asylum-seekers;\nafter school care;\nsales associate (part-time)`,
   },
   {
     educationHeader: "",
