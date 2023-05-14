@@ -19,6 +19,7 @@ function CVHeader({ education, experience }) {
           ></img>
         </div>
       </div>
+      <p>hint: click on the leafs ...</p>
     </div>
   );
 }
