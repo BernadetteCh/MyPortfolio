@@ -23,7 +23,8 @@
 
 .job-details,
 .learning-experience,
-.education-details .education-experience {
+.education-details,
+.education-experience {
   text-align: left;
   font-size: 20px;
 }
