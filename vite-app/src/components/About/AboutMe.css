@@ -5,6 +5,14 @@ h3 {
 span {
   text-decoration: underline;
 }
+.download-cv {
+  color: black;
+  text-decoration: none;
+  font-family: var(--nav-font-family);
+  font-style: italic;
+  font-size: 20px;
+  padding: 40px;
+}
 
 .curriculum-vitae div {
   padding-top: 8px;
@@ -49,5 +57,8 @@ span {
   }
   .mentor-reference p {
     font-size: 16px;
+  }
+  .download-cv {
+    font-size: 12px;
   }
 }
