@@ -11,7 +11,13 @@ span {
   font-family: var(--nav-font-family);
   font-style: italic;
   font-size: 20px;
-  padding: 40px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  margin-left: 10px;
+}
+.download-cv:hover {
+  color: black;
 }
 
 .curriculum-vitae div {
@@ -60,5 +66,6 @@ span {
   }
   .download-cv {
     font-size: 12px;
+    margin-left: 0px;
   }
 }
