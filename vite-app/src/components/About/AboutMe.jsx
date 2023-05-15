@@ -13,6 +13,7 @@ import { selfIntroduction3 } from "./SelfIntroduction";
 import cat from "../../img/cat.png";
 import { curriculumVitea } from "./CV";
 import leaf from "../../img/leaf.png";
+import BCHCV from "../../BCHCV.pdf";
 
 function AboutMe() {
   const [openModal, setOpenModal] = useState(false);
@@ -73,6 +74,9 @@ function AboutMe() {
           );
         })}
       </div>
+      <a href={BCHCV} className="download-cv" target="_blank">
+        Download CV
+      </a>
       {openModal && (
         <Modal
           setOpenModal={setOpenModal}
