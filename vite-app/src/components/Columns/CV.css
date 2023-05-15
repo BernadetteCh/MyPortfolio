@@ -27,4 +27,8 @@ span {
   .cvheader-picture {
     width: 100px;
   }
+  .hint {
+    margin: 0px;
+    font-size: 12px;
+  }
 }
