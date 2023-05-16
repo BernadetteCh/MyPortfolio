@@ -30,7 +30,7 @@ myself completely dependent on this search engine and my laptop.`;
 
 export const selfIntroduction3 = `I like working in teams and appreciate a respectful and harmonious relationship with each other. I also enjoy
 having time to myself from time to time and challenging myself by implementing my own ideas.
-I work conscientiously and detail-oriented. Furthermore, my strength lies in not letting my programming skills
-be negatively affected and not giving up, even in stressful situations.
+I approach work with a conscientious and detail-oriented mindset. Moreover, I take pride in my ability to maintain the quality of my programming skills despite any challenges,
+and I remain determined and resilient even in the face of stressful situations. After countless challenges, failures but also successes I can proudly say
 
-Today I can proudly say: Hello World ! `;
+Hello World ! `;
