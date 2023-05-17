@@ -1,4 +1,5 @@
 import { Navbar, Nav } from "react-bootstrap";
+import "./Navbar.css";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 function NavigationBar() {
@@ -11,72 +12,78 @@ function NavigationBar() {
           style={{ maxHeight: "100px", marginLeft: "auto" }}
           navbarScroll
         >
-          <AnchorLink
-            href="#home"
-            className="d-block d-lg-inline fs-4"
-            style={{
-              fontFamily: "var(--navcursiv-family)",
-              padding: "0px 10px",
-              fontStyle: "italic",
-              color: "grey",
-              textDecoration: "none",
-            }}
-          >
-            Home
-          </AnchorLink>
-
-          <AnchorLink
-            href="#aboutme"
-            className="d-block d-lg-inline fs-4"
-            style={{
-              fontFamily: "var(--navcursiv-family)",
-              padding: "0px 10px",
-              fontStyle: "italic",
-              color: "grey",
-              textDecoration: "none",
-            }}
-          >
-            About me
-          </AnchorLink>
-
-          <AnchorLink
-            href="#projects"
-            className="d-block d-lg-inline fs-4"
-            style={{
-              fontFamily: "var(--nav-font)",
-              padding: "0px 10px",
-              color: "grey",
-              textDecoration: "none",
-            }}
-          >
-            Projects
-          </AnchorLink>
-
-          <AnchorLink
-            href="#skills"
-            className="d-block d-lg-inline fs-4"
-            style={{
-              fontFamily: "var(--nav-font)",
-              padding: "0px 10px",
-              color: "grey",
-              textDecoration: "none",
-            }}
-          >
-            Skills
-          </AnchorLink>
-
-          <AnchorLink
-            href="#contact"
-            className="d-block d-lg-inline fs-4"
-            style={{
-              fontFamily: "var(--nav-font)",
-              padding: "0px 10px",
-              color: "grey",
-              textDecoration: "none",
-            }}
-          >
-            Contact
-          </AnchorLink>
+          <li>
+            <AnchorLink
+              href="#home"
+              className="d-block d-lg-inline fs-4"
+              style={{
+                fontFamily: "var(--navcursiv-family)",
+                padding: "0px 10px",
+                fontStyle: "italic",
+                color: "grey",
+                textDecoration: "none",
+              }}
+            >
+              Home
+            </AnchorLink>
+          </li>
+          <li>
+            <AnchorLink
+              href="#aboutme"
+              className="d-block d-lg-inline fs-4"
+              style={{
+                fontFamily: "var(--navcursiv-family)",
+                padding: "0px 10px",
+                fontStyle: "italic",
+                color: "grey",
+                textDecoration: "none",
+              }}
+            >
+              About me
+            </AnchorLink>
+          </li>
+          <li>
+            <AnchorLink
+              href="#projects"
+              className="d-block d-lg-inline fs-4"
+              style={{
+                fontFamily: "var(--nav-font)",
+                padding: "0px 10px",
+                color: "grey",
+                textDecoration: "none",
+              }}
+            >
+              Projects
+            </AnchorLink>
+          </li>
+          <li>
+            <AnchorLink
+              href="#skills"
+              className="d-block d-lg-inline fs-4"
+              style={{
+                fontFamily: "var(--nav-font)",
+                padding: "0px 10px",
+                color: "grey",
+                textDecoration: "none",
+              }}
+            >
+              Skills
+            </AnchorLink>
+          </li>
+          <li>
+            <AnchorLink
+              href="#contact"
+              className="d-block d-lg-inline fs-4"
+              style={{
+                fontFamily: "var(--nav-font)",
+                padding: "0px 10px",
+                color: "grey",
+                textDecoration: "none",
+              }}
+            >
+              Contact
+            </AnchorLink>
+          </li>
         </ul>
       </Navbar.Collapse>
     </Navbar>
