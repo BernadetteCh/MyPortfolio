@@ -14,6 +14,7 @@ import bootstrapicon from "../../img/technologies/bootstrap.png";
 import java from "../../img/technologies/java.png";
 import mongodb from "../../img/technologies/mongodb.png";
 import mysql from "../../img/technologies/mysql.png";
+import spring from "../../img/technologies/spring.png";
 import nodejs from "../../img/technologies/nodejs.png";
 import shecodesreact from "../../img/shecodesreact.png";
 import shecodesfrontend from "../../img/shecodesfrontend.png";
@@ -25,6 +26,7 @@ function Skills() {
       <div className="content-container container">
         <div className="row d-block d-lg-flex">
           <div className="col-6 mt-5">
+            <SkillIcons icon={spring} />
             <SkillIcons icon={javascript} />
             <SkillIcons icon={html} />
             <SkillIcons icon={css} />
@@ -37,6 +39,7 @@ function Skills() {
             <SkillIcons icon={mongodb} />
             <SkillIcons icon={mysql} />
             <SkillIcons icon={nodejs} />
+
             <div className="certificates">
               <img
                 src={shecodesfrontend}
