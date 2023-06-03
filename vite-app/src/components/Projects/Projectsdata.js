@@ -44,7 +44,7 @@ export const projectsData = [
     title: imgtitle,
     projecttitle: "MarsRover",
     technologies: "Java, Postgresql, PostgreSQL",
-    link: "#",
+    link: "https://github.com/BernadetteCh/MarsRover",
   },
   {
     name: myemployeesdata,
