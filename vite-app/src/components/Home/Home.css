@@ -1,6 +1,17 @@
+.e-control {
+  font-family: Arial !important;
+}
+
+h1,
+h4,
+h6 {
+  text-align: center;
+  font-weight: 100;
+  font-family: var(--mainheadline-family);
+}
+
 h2 {
   text-align: center;
-  font-family: var(--subheadline-font);
 }
 
 img {
@@ -8,7 +19,7 @@ img {
   margin: 0px auto;
   margin-top: 60px;
 }
-button {
+.contact-button {
   border: none;
   background-color: var(--secondary-color);
   padding: 20px 60px;
@@ -16,6 +27,17 @@ button {
   color: black;
   font-family: var(--nav-font-family);
   letter-spacing: 1px;
+  border-radius: 4px;
+}
+.skill-button {
+  border: none;
+  background-color: var(--primary-color);
+  padding: 20px 60px;
+  font-weight: bold;
+  color: black;
+  font-family: var(--nav-font-family);
+  letter-spacing: 1px;
+  border-radius: 4px;
 }
 p {
   font-family: var(--navcursiv-family);
@@ -23,14 +45,17 @@ p {
   text-align: right;
   margin-right: 100px;
 }
+
 .latest-projects {
   font-weight: lighter;
   margin-top: 50px;
 }
+
 .contact-link {
   text-decoration: none;
   display: block;
-  margin: 0px auto;
+  margin: 0px;
+  padding: 20px;
   font-size: 20px;
 }
 .projects-link {
@@ -57,7 +82,26 @@ p {
   .latest-projects {
     font-size: 16px;
   }
-  .projects-link {
-    font-size: 12px;
+
+  .project {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .berni {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  }
+}
+@media (max-width: 992px) {
+  h1 {
+    font-size: 30px !important;
+    margin-bottom: 20px !important;
+  }
+  h4 {
+    font-size: 10px !important;
+    margin-bottom: 10px !important;
+  }
+
+  h6 {
+    font-size: 20px !important;
+    margin-bottom: 50px !important;
   }
 }
