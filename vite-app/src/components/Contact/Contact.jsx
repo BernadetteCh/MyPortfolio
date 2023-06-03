@@ -17,7 +17,6 @@ function Contact() {
         <AnchorLink href="contact" className="contact-link">
           <button className="contactViaMail">Contact Me</button>
         </AnchorLink>
-
         <p className="emailaddress">b.christiner93@gmail.com</p>
       </div>
       <div style={{ display: "block", textAlign: "center" }}>
