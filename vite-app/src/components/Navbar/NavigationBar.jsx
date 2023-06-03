@@ -10,7 +10,7 @@ function NavigationBar() {
         <ul
           className=" mr-auto my-2 my-lg-0 justify-content-end "
           style={{ maxHeight: "100px", marginLeft: "auto" }}
-          navbarScroll
+          navbarscroll="true"
         >
           <li>
             <AnchorLink
