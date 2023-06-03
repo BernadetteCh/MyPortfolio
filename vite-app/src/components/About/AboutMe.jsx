@@ -48,7 +48,15 @@ function AboutMe() {
         <h3 style={{ fontWeight: "bold" }}>References</h3>
         <p>Mentors who supported me during my coding journey</p>
         <p>
-          <span className="mentor">Emad Easa Senior Developer</span>
+          <span className="mentor">Emad Easa Senior Developer:</span>
+          <span> </span>
+          <span>
+            ,,with her Growth mindset, embraced challenges and dedicated herself
+            to becoming <br />a skilled full-stack developer, while her
+            altruistic nature and active involvement in social activities
+            reflected <br />
+            her commitment to helping others. "
+          </span>
         </p>
         <p>
           <span className="mentor">Guillermo Herrero Senior Developer</span>
