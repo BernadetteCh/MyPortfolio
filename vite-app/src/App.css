@@ -1,17 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Cardo&family=Creepster&family=Henny+Penny&family=Montserrat:wght@300&family=Poppins:wght@300&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Cardo:ital@0;1&family=Creepster&family=Henny+Penny&family=Montserrat:wght@300&family=Poppins:wght@300&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Cardo:ital@0;1&family=Creepster&family=Henny+Penny&family=Montserrat:wght@300&family=Nanum+Myeongjo:wght@700&family=Poppins:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cardo:ital@0;1&family=Comme:wght@100&family=Creepster&family=Henny+Penny&family=Montserrat:wght@300&family=Nanum+Myeongjo:wght@700&family=Poppins:wght@300&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Comme:wght@100&family=Creepster&family=Henny+Penny&family=Montserrat:wght@300&family=Nanum+Myeongjo:wght@700&family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Comme:wght@100&family=Creepster&family=Henny+Penny&family=IBM+Plex+Serif:wght@100&family=Montserrat:wght@300&family=Nanum+Myeongjo:wght@700&family=Poppins:wght@300&display=swap");
+
 :root {
   --nav-font-family: "Cardo", serif;
   --navcursiv-family: "Cardo", serif;
-  --headline-font-family: "Montserrat", sans-serif;
+  --mainheadline-family: "Comme", sans-serif;
+  --headline-family: "Montserrat", sans-serif;
   --subheadline-font-family: "Poppins", sans-serif;
 
   --primary-color: #bcaeab;
   --secondary-color: #fff9f2;
+}
+.container {
+  margin-left: 50px;
+  margin-right: 50px;
 }
