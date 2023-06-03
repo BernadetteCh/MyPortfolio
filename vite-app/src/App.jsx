@@ -15,14 +15,14 @@ function App() {
       <section id="home">
         <Home />
       </section>
-      <section id="aboutme">
-        <AboutMe />
-      </section>
       <section id="projects">
         <Projects />
       </section>
       <section id="skills">
         <Skills />
+      </section>
+      <section id="aboutme">
+        <AboutMe />
       </section>
       <section id="contact">
         <Contact />
