@@ -25,8 +25,12 @@ span {
 }
 .selfintroduction-text p {
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
   padding: 20px;
+  font-family: var(--navcursiv-family);
+  font-weight: normal;
+  font-style: unset;
+  letter-spacing: 1px;
 }
 .profile-picture {
   margin-bottom: 60px;
@@ -46,6 +50,8 @@ span {
 }
 .mentor {
   text-decoration: underline;
+  font-family: var(--headline-font);
+  font-style: normal;
 }
 
 @media (max-width: 992px) {
