@@ -8,7 +8,8 @@ function ProjectView({ link, title, image, projecttitle, technologies }) {
           src={image}
           className="project-image"
           style={{
-            boxShadow: "rgb(38, 57, 77) 0px 20px 30px -10px",
+            boxShadow:
+              "rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px",
           }}
         ></img>
       </a>
