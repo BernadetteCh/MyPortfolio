@@ -7,7 +7,7 @@ function SkillIcons({ icon }) {
         src={icon}
         className="img-fluid skillicon"
         style={{
-          boxShadow: "rgb(38, 57, 77) 0px 20px 30px -10px",
+          boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
           marginTop: "20px",
           width: "80px",
         }}
