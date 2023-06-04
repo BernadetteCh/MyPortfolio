@@ -13,8 +13,67 @@ span {
   font-family: var(--nav-font-family);
   letter-spacing: 2px;
 }
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    to right bottom,
+    rgb(255, 249, 242, 0.2),
+    rgb(238, 230, 223, 0.2),
+    rgb(221, 211, 205, 0.2),
+    rgb(205, 192, 188, 0.2),
+    rgb(188, 174, 171, 0.2)
+  );
+
+  height: 8rem;
+  padding: 0.8rem;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+.animation {
+  background-image: linear-gradient(
+    to right bottom,
+    rgb(255, 249, 242, 0.3),
+    rgb(238, 230, 223, 0.3),
+    rgb(221, 211, 205, 0.3),
+    rgb(205, 192, 188, 0.3),
+    rgb(188, 174, 171, 0.3)
+  );
+  background-size: 100% 100%;
+  animation: anim 10s infinite ease-in-out;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: anim;
+}
+
+@keyframes anim {
+  0% {
+    background-position: 0 50%;
+    transform: scale(1);
+  }
+  50% {
+    background-position: 100% 50%;
+    transform: scale(1.2);
+  }
+  100% {
+    background-position: 0 50%;
+    transform: scale(1);
+  }
+}
 
 .leaf {
+  width: 8rem;
+  height: 8rem;
+  object-fit: contain;
+  cursor: pointer;
+  filter: drop-shadow(8px 8px 8px #ababab);
   cursor: pointer;
 }
 @media (max-width: 992px) {
@@ -30,7 +89,10 @@ span {
   .leaf {
     width: 30px;
   }
-
+  .logo {
+    width: 60px;
+    height: 60px;
+  }
   .cvheader-picture {
     width: 100px;
   }
