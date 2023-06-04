@@ -2,7 +2,7 @@ import Headline from "../../components/Headline.jsx";
 import SkillIcon from "./SkillIcon.jsx";
 import "../../components/Skills/Skills.css";
 import growthmindsettree from "../../img/growthmindsettree.png";
-import icons from "./Icons.js";
+import { icons } from "./Icons";
 import Certificates from "./Certificates.jsx";
 
 function Skills() {
