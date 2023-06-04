@@ -41,10 +41,10 @@ export const curriculumVitea = [
     experienceSubheader: experienceMileStone2Period,
     educationDetail: "Online coding workshop, Shecodes",
     educationExperience:
-      "I wanted to make use of the time during the pandemic. I started learning programming by myself and haven't stopped since then",
+      "I wanted to make use of the time during the pandemic. I started learning programming with SheCodes online coding workshop",
     jobDetail: "Sale Assistant at Kastner & Öhler, Graz, Austria",
     jobExperience:
-      "I learned a lot about resilience and persistence because in sales, you encounter people from various social backgrounds and with various personalities.",
+      "I learned a lot about resilience and persistence because in sales, you encounter people from various social backgrounds and with various personalities. Responsible for Point of sales and Inventor management,  ",
   },
   {
     educationHeader: educationMileStone3,
@@ -70,7 +70,7 @@ export const curriculumVitea = [
     jobDetail:
       "Baby photographer for Babysmile GmbH, Germany professional newborn and family photography in the hospital",
     jobExperience:
-      "In photography, some of the most challenging subjects are animals and children, as they skillfully ignore the instructions of the photographer. Therefore, I have learned here how important it is to stay calm and patient in stressful situations.",
+      "In photography, some of the most challenging subjects are animals and children, as they skillfully ignore the instructions of the photographer. Therefore, I have learned here how important it is to stay calm and patient in stressful situations. I was responsible for Project operation, photography",
   },
 
   {
@@ -78,9 +78,8 @@ export const curriculumVitea = [
     educationSubheader: educationMileStone4Period,
     experienceHeader: experienceMileStone4,
     experienceSubheader: experienceMileStone4Period,
-    educationDetail: " Various Photography Courses , Nikon,  Vienna",
-    educationExperience:
-      "I discovered photography as a hobby. Since that day, I have seen my environment through a lens and turned friends and family members into models.",
+    educationDetail: "",
+    educationExperience: "",
     jobDetail: "Social Worker at ,,Zeit!Raum‘‘ in Vienna, Austria",
     jobExperience:
       "pedagogical support and counseling for young adults with a refugee background in a residential care home. I was responsible for documentation and keeping of business records, support with the integration process and cooperation with local authorities",
