@@ -24,7 +24,7 @@ function CV({
             subheadertext={educationsubheader}
           />
         </div>
-        <div className="col-1">
+        <div className="col-1 animation logo">
           <img
             src={leaf}
             style={{ margin: "0px", maxWidth: "50px" }}
