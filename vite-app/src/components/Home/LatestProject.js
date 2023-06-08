@@ -1,6 +1,6 @@
-import weatherapp from "../../img/weatherapp.png";
-import dictionaryapp from "../../img/dictionaryapp.png";
-import employeemadness from "../../img/employeemadness.png";
+import weatherapp from "../../img/projects/weatherapp.png";
+import dictionaryapp from "../../img/projects/dictionaryapp.png";
+import employeemadness from "../../img/projects/employeemadness.png";
 
 export const latestProjects = [
   {
