@@ -14,13 +14,17 @@ function Contact() {
         <img src={contactHeadline} className="headline-contact img-fluid"></img>
       </div>
       <div style={{ textAlign: "center" }}>
-        <AnchorLink href="contact" className="contact-link">
+        <a href="mailto:b.christiner93@gmail.com" className="contact-link">
           <button className="contactViaMail">Contact Me</button>
-        </AnchorLink>
+        </a>
+
         <p className="emailaddress">b.christiner93@gmail.com</p>
       </div>
       <div style={{ display: "block", textAlign: "center" }}>
-        <a href="https://at.linkedin.com/" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/bernadette-christiner-40576127a/"
+          target="_blank"
+        >
           <img src={linkedInIcon} className="contact-icon"></img>
         </a>
         <a href="https://github.com/BernadetteCh" target="_blank">
