@@ -11,6 +11,5 @@ I left my fear of computers behind me and continued to study.
 I immersed myself in a new world in which I discovered something new every time, could learn and had fun
 doing it.`;
 
-export const selfIntroduction3 = `For more than a year now I've been learning to program or should I say googling. Since it is a very time-
-consuming training, I made
-myself completely dependent on this search engine and my laptop.`;
+export const selfIntroduction3 = `For more than a year now I've been learning to program or should I say "googling". Since it is a very time-consuming training, I made
+myself completely dependent on this search engine and my laptop, but do not regret start learing to prgram`;
