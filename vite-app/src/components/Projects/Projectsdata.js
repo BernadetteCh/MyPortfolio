@@ -7,6 +7,7 @@ import myemployeesdata from "../../img/employeemadness.png";
 import weatherapp from "../../img/projects/weatherapp2.png";
 import calculatorapp from "../../img/projects/calculator.png";
 import italyapp from "../../img/projects/learnItalianApp.png";
+import HogwartsHouses from "../../img/hogwarts_houses.png";
 
 const imgtitle = "click to view project";
 
@@ -24,6 +25,13 @@ export const projectsData = [
     projecttitle: "TicTacToe",
     technologies: "html, css and javascript, bootstrap",
     link: "https://ubiquitous-chebakia-24042d.netlify.app/",
+  },
+  {
+    name: HogwartsHouses,
+    title: imgtitle,
+    projecttitle: "Hogwarts_Houses",
+    technologies: "Springboot, Java, H2Database,Integration Tests, Mocking",
+    link: "https://github.com/BernadetteCh/Hogwarts-Houses",
   },
   {
     name: reactweatherapp,
