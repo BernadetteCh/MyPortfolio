@@ -16,7 +16,7 @@ function Body() {
         className="contact-link"
         style={{ margin: "0px" }}
       >
-        <button className="contact-button">Contact me</button>
+        <button className="contact-button">Contact</button>
       </AnchorLink>
       <AnchorLink
         href="#skills"
