@@ -13,7 +13,8 @@ import { selfIntroduction3 } from "./SelfIntroduction";
 import cat from "../../img/cat.png";
 import { curriculumVitea } from "./CV";
 import leaf from "../../img/leaf.png";
-import BCHCV from "../../BCHCV.pdf";
+import BCHCV from "../../../src/CV_BCH.pdf";
+import CVEngl from "../../../src/CV-engl.pdf";
 import MentorReference from "./MentorReference";
 
 function AboutMe() {
@@ -66,7 +67,7 @@ function AboutMe() {
           );
         })}
       </div>
-      <a href={BCHCV} className="download-cv" target="_blank">
+      <a href={CVEngl} className="download-cv" target="_blank">
         Download CV
       </a>
       {openModal && (
