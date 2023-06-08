@@ -44,7 +44,7 @@ export const curriculumVitea = [
       "I wanted to make use of the time during the pandemic. I started learning programming with SheCodes online coding workshop",
     jobDetail: "Sale Assistant at Kastner & Öhler, Graz, Austria",
     jobExperience:
-      "I learned a lot about resilience and persistence because in sales, you encounter people from various social backgrounds and with various personalities. Responsible for Point of sales and Inventor management,  ",
+      "I learned a lot about resilience and persistence because in sales, you encounter people from various social backgrounds and with various personalities. Responsible for Point of sales and Inventory management,  ",
   },
   {
     educationHeader: educationMileStone3,
