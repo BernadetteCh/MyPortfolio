@@ -1,13 +1,13 @@
 import robocat from "../../img/projects/robocat.png";
 import TicTacToe from "../../img/projects/TicTacToeGame.png";
-import reactweatherapp from "../../img/weatherapp.png";
-import dictionaryapp from "../../img/dictionaryapp.png";
+import reactweatherapp from "../../img/projects/weatherapp.png";
+import dictionaryapp from "../../img/projects/dictionaryapp.png";
 import mars from "../../img/projects/mars.png";
-import myemployeesdata from "../../img/employeemadness.png";
+import myemployeesdata from "../../img/projects/employeemadness.png";
 import weatherapp from "../../img/projects/weatherapp2.png";
 import calculatorapp from "../../img/projects/calculator.png";
 import italyapp from "../../img/projects/learnItalianApp.png";
-import HogwartsHouses from "../../img/hogwarts_houses.png";
+import HogwartsHouses from "../../img/projects/hogwarts_houses.png";
 
 const imgtitle = "click to view project";
 
