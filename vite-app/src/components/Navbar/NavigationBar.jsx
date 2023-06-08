@@ -17,9 +17,8 @@ function NavigationBar() {
               href="#home"
               className="d-block d-lg-inline fs-4"
               style={{
-                fontFamily: "var(--navcursiv-family)",
+                fontFamily: "var(--nav-font)",
                 padding: "0px 10px",
-                fontStyle: "italic",
                 color: "grey",
                 textDecoration: "none",
               }}
@@ -32,9 +31,8 @@ function NavigationBar() {
               href="#aboutme"
               className="d-block d-lg-inline fs-4"
               style={{
-                fontFamily: "var(--navcursiv-family)",
+                fontFamily: "var(--nav-font)",
                 padding: "0px 10px",
-                fontStyle: "italic",
                 color: "grey",
                 textDecoration: "none",
               }}
