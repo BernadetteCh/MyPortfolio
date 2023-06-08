@@ -11,7 +11,7 @@ function Skills() {
       <Headline header={"Skills"} />
       <div className="content-container container">
         <div className="row d-block d-lg-flex">
-          <div className="col-6 mt-5">
+          <div className="col-6 mt-5 p-0">
             {icons.map((icon, index) => {
               return <SkillIcon icon={icon} key={index} />;
             })}
