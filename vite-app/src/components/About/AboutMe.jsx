@@ -15,7 +15,7 @@ import { curriculumVitea } from "./CV";
 import leaf from "../../img/leaf.png";
 import BCHCV from "../../../src/CV_BCH.pdf";
 import CVEngl from "../../../src/CV-engl.pdf";
-import CVGerman from "../../src/CV-german.pdf";
+import CVGerman from "../../../src/CV-german.pdf";
 import MentorReference from "./MentorReference";
 
 function AboutMe() {
