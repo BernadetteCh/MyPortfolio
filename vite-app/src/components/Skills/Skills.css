@@ -38,6 +38,9 @@ div {
   margin-top: 80px;
   padding: 0px 20px;
 }
+.certificates img {
+  margin-bottom: 0px;
+}
 
 @media (max-width: 992px) {
   .tree {
