@@ -13,10 +13,8 @@ import { selfIntroduction3 } from "./SelfIntroduction";
 import cat from "../../img/cat.png";
 import { curriculumVitea } from "./CV";
 import leaf from "../../img/leaf.png";
-import BCHCV from "../../../src/CV_BCH.pdf";
-import CVEngl from "../../../src/CV-engl.pdf";
-import CVGerman from "../../../src/CV-german.pdf";
 import MentorReference from "./MentorReference";
+import CVEnglish from "../../../src/CV-English.pdf";
 
 function AboutMe() {
   const [openModal, setOpenModal] = useState(false);
@@ -68,7 +66,7 @@ function AboutMe() {
           );
         })}
       </div>
-      <a href={CVGerman} className="download-cv" target="_blank">
+      <a href={CVEnglish} className="download-cv" target="_blank">
         Download CV
       </a>
       {openModal && (
