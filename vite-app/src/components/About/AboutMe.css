@@ -48,8 +48,10 @@ span {
   margin-top: 250px;
   font-size: 25px;
 }
+.mentor-reference p {
+  margin-bottom: 0px;
+}
 .mentor {
-  text-decoration: underline;
   font-family: var(--headline-font);
   font-style: normal;
 }
