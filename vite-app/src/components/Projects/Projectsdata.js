@@ -8,10 +8,20 @@ import weatherapp from "../../img/projects/weatherapp2.png";
 import calculatorapp from "../../img/projects/calculator.png";
 import italyapp from "../../img/projects/learnItalianApp.png";
 import HogwartsHouses from "../../img/projects/hogwarts_houses.png";
+import CodePool from "../../img/projects/CodePool.png";
 
 const imgtitle = "click to view project";
 
 export const projectsData = [
+  {
+    name: CodePool,
+    title: imgtitle,
+    projecttitle: "CodePool - Teamproject",
+    technologies:
+      "Springboot, Spring Security, Java, H2Database, Hibernate, React",
+    link: "https://github.com/AS825/CodePool",
+  },
+
   {
     name: robocat,
     title: imgtitle,
