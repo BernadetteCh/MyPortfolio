@@ -28,7 +28,8 @@ div {
   display: inline;
   margin-top: 20px;
 }
-.shecodescertificate {
+.shecodescertificate,
+.codecoolcertificate {
   width: 300px;
   display: inline;
   margin: 0px;
