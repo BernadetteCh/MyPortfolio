@@ -9,6 +9,7 @@ import calculatorapp from "../../img/projects/calculator.png";
 import italyapp from "../../img/projects/learnItalianApp.png";
 import HogwartsHouses from "../../img/projects/hogwarts_houses.png";
 import CodePool from "../../img/projects/CodePool.png";
+import SpringSecurity from "../../img/projects/springsecurity.png";
 
 const imgtitle = "click to view project";
 
@@ -26,7 +27,7 @@ export const projectsData = [
     name: robocat,
     title: imgtitle,
     projecttitle: "RoboCats",
-    technologies: "Springboot, Java",
+    technologies: "Spring Boot, Java",
     link: "https://github.com/BernadetteCh/RoboCats",
   },
   {
@@ -36,12 +37,20 @@ export const projectsData = [
     technologies: "html, css and javascript, bootstrap",
     link: "https://ubiquitous-chebakia-24042d.netlify.app/",
   },
+
   {
     name: HogwartsHouses,
     title: imgtitle,
     projecttitle: "Hogwarts_Houses",
-    technologies: "Springboot, Java, H2Database,Integration Tests, Mocking",
+    technologies: "Spring Boot, Java, H2Database,Integration Tests, Mocking",
     link: "https://github.com/BernadetteCh/Hogwarts-Houses",
+  },
+  {
+    name: SpringSecurity,
+    title: imgtitle,
+    projecttitle: "SpringSecurity",
+    technologies: "Java, Spring Boot, Spring Security, React, H2",
+    link: "https://github.com/BernadetteCh/SpringSecurity_PETProject",
   },
   {
     name: reactweatherapp,
@@ -54,7 +63,7 @@ export const projectsData = [
     name: dictionaryapp,
     title: imgtitle,
     projecttitle: "DictionaryApp",
-    technologies: "React, Axios, Bootstrap, Restful API",
+    technologies: "React, Axios, Bootstrap",
     link: "https://frosty-lumiere-3bb161.netlify.app/",
   },
   {
