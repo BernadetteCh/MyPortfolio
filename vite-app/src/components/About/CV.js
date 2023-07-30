@@ -1,5 +1,5 @@
 export const educationMileStone1 = "Educational leave,Full Stack Developer";
-export const educationMileStone1Period = "05/2022  - now";
+export const educationMileStone1Period = "05/2022  - 07/2023";
 export const educationMileStone2 = "SheCodes ,,Hands on'' Coding Workshops ";
 export const educationMileStone2Period = "09/2021 – 01/2022";
 export const educationMileStone3 = "University course Project Management, Graz";
@@ -9,8 +9,8 @@ const educationMileStone4Period = "";
 const educationMileStone5 = "Bachelor of Arts, Educational Science";
 const educationMileStone5Period = "10/2011 - 12/2015";
 
-const experienceMileStone1 = "Educational leave,Full Stack Developer";
-const experienceMileStone1Period = "05/2022  - now";
+const experienceMileStone1 = "Full Stack Developer";
+const experienceMileStone1Period = "05/2022  - 07/2023";
 const experienceMileStone2 = "Sales assistant, K&Ö";
 const experienceMileStone2Period = "02/2019 - 05/2022";
 const experienceMileStone3 = "BabySmile GmbH";
