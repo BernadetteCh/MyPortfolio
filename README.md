@@ -1,4 +1,5 @@
 # MyPortfolio
+A little bit information about me and my projects (:
 
 Link to my portfolio :
-[title](https://bernadettech.netlify.app/)
+[Portfolio](https://bernadettech.netlify.app/)
